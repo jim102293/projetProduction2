@@ -73,3 +73,12 @@ input[type=text]:focus {
 #ico-panier{
     margin-right: 10px;
 }
+
+.navbar-default{
+     top:0;
+/*right: 0;
+left: 0;
+z-index: 1030;*/
+
+
+}
