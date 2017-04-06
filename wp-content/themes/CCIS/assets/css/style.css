@@ -1,7 +1,22 @@
 body {
-    background-color:tomato;
+    font-family: 'Roboto', sans-serif;
 }
-nav .nav-pills .pull-right {
-    display:none;
-    background-color:black;
+
+/* ######### HEADER ############# */
+
+.nav-pills{
+ 
 }
+
+.nav-pills li a{
+    color:black;
+}
+
+/* couleur hover */
+.nav-pills li  a:hover {
+    background-color:#cecfd0;
+}
+
+/* enlever le border radius par default*/
+.nav-pills > li > a {
+    border-radius: 0px;
