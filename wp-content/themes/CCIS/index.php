@@ -7,8 +7,8 @@
 
         <!-- style -->
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/bootstrap/bootstrap-theme.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap-theme.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
         <!-- CDN Google Font-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
@@ -52,20 +52,11 @@
             <!-- Fixed navbar -->
     <nav class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="index.php">Accueil</a></li>
+            <li><a href="#chambre">La chambre</a></li>
+            <li><a href="#contact">Services</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -78,11 +69,6 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -134,25 +120,27 @@ Donec non lacus sem. Sed pulvinar varius mi, eget fringilla enim vulputate at. Q
     </footer>
 
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
 
+    <!-- Jquery pour menu principale fixed en scroll-->
     <script>
-        (function($){
-    $(document).ready(function(){
-        var offset = $(".navbar").offset().top;
-        $(document).scroll(function(){
-            var scrollTop = $(document).scrollTop();
-            if(scrollTop > offset){
-                $(".navbar").css("position", "fixed");
-            }
-            else {
-                $(".navbar").css("position", "static");
-            }
-        });
-    });
-})(jQuery);
+            (function($){
+            $(document).ready(function(){
+                var offset = $(".navbar").offset().top;
+                $(document).scroll(function(){
+                    var scrollTop = $(document).scrollTop();
+                    if(scrollTop > offset){
+                        $(".navbar").css("position", "fixed");
+                    }
+                    else {
+                        $(".navbar").css("position", "static");
+                    }
+                });
+             });
+             })(jQuery);
     </script>
 
     </body>
