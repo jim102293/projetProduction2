@@ -4,8 +4,14 @@ body {
 
 /* ######### HEADER ############# */
 
+/* LOGO */
+#img-logo{
+    margin-top: 10px;
+}
 .nav-pills{
- 
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .nav-pills li a{
@@ -20,3 +26,50 @@ body {
 /* enlever le border radius par default*/
 .nav-pills > li > a {
     border-radius: 0px;
+    border-left: 1px solid#000000;
+}
+
+/* Le li active (recherche) */
+.nav-pills li.active a{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Hover du li active (recherche) */
+.nav-pills li.active a:hover{
+    background-color: #cecfd0;
+    color:#000000
+}
+
+/* BARRE DE RECHERCHE */
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('../images/ico_loupe.png');
+    background-size: 22px 22px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+    background-color: #cecfd0;
+}
+/* Barre recherche */
+#search-form{
+    float:left;
+}
+
+/* ICONE PANIER */
+#ico-panier{
+    margin-right: 10px;
+}
