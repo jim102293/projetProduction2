@@ -30,7 +30,7 @@
                         </div> <!--fermeture du logo-->
                     </div><!--fermture de la colonne-->
                     
-                    <!--MENU SECONDAIRE-->
+                <!--MENU SECONDAIRE-->
                     <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                         <nav>
                             <ul class="nav nav-pills pull-right">
@@ -47,9 +47,9 @@
                 </div><!--fermture du ROW-->
             </div><!--fermeture du container -->
 
+
+
             <!-- MENU PRINCIPALE -->
-            
-            <!-- Fixed navbar -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
           <!-- menu hanburger quand responsive-->

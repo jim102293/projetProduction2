@@ -1,42 +1,53 @@
 <?php get_header();?>
 
+<main>
+    <section id="slider-accueil">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    ****** SLIDER DANS WORDPRESS ****
+                </div>
+            </div>
+        </div>
+    </section>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a bibendum tellus. In convallis, nulla a rhoncus tincidunt, est sem convallis nunc, vulputate congue magna augue quis nulla. Phasellus fermentum odio euismod magna auctor eleifend. Praesent semper, felis id sodales ultricies, neque ligula sagittis nibh, interdum fermentum lectus odio a urna. Aliquam luctus felis ex, sit amet venenatis tortor vestibulum a. Cras blandit faucibus lectus, a mattis massa lacinia et. Praesent in nibh vel ante aliquet fringilla. Etiam sapien dui, malesuada sit amet maximus vitae, tincidunt sit amet lectus. Nunc eu commodo metus, eget pretium odio. Cras dapibus condimentum nibh eu ornare. Proin iaculis sit amet nunc vitae elementum. Donec volutpat arcu at orci volutpat, a posuere nisl pulvinar. Curabitur ullamcorper orci vitae velit cursus, a rhoncus elit rutrum. Pellentesque sollicitudin, ipsum placerat malesuada ultricies, diam ex fringilla massa, et venenatis urna sapien nec velit. Curabitur congue quam eget diam posuere, vitae tempor neque tincidunt.
 
-Sed ullamcorper efficitur risus, vel aliquam est. Donec tincidunt vehicula laoreet. Curabitur gravida, lorem eu rhoncus ultricies, mauris ante gravida dui, id mollis tortor magna id urna. Praesent maximus aliquam est, at aliquet quam efficitur at. Sed rhoncus hendrerit mollis. Integer id sollicitudin lorem. Suspendisse ut maximus leo. Morbi sed dapibus est. Praesent in dignissim neque. Praesent faucibus leo in nisl gravida posuere. In hac habitasse platea dictumst. Maecenas non est finibus, tincidunt neque sed, hendrerit tellus. Fusce ornare sollicitudin libero id feugiat. Phasellus venenatis dui in nisl egestas blandit.
+<!-- *******  EVENEMENT BLOC ********** -->
+            <div class="container-fluid">
+                <div class="row">
+                  
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                           
+                                <h3 class="h3-event">Évènements</h3>
+                                <p class="titre-evenement">Les boys blues band, un groupe qui rapporte, venez encouragez les artiste de chez vous</p>
+                                <button type="button" class="btn">Basic</button>
+                            </div> <!-- fin col 3 -->
+                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-default-event.png" alt="" height="300" width="300">
+                            </div><!-- fin col 4 -->
+            
+    <!-- *******  EVENEMENT À VENIR  BLOC ********** -->                 
 
-Suspendisse feugiat est non diam tempor, vel ullamcorper nunc rhoncus. Cras in posuere sapien. Curabitur eros enim, eleifend id dictum eu, volutpat id arcu. Aenean luctus ut mi eget rhoncus. Morbi sodales varius elit, ut efficitur purus viverra et. Fusce molestie enim nec consequat consectetur. Phasellus fringilla hendrerit nisl eu volutpat. Praesent pharetra, orci vitae euismod egestas, turpis diam auctor leo, non vehicula libero ante id dolor. Aenean efficitur felis vel ante suscipit viverra. Donec id leo diam. Curabitur eu varius sem, sit amet laoreet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Mauris et facilisis mauris, laoreet eleifend dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas consequat augue vitae scelerisque. Donec ullamcorper lacus vel leo commodo cursus. Cras rutrum, tortor a accumsan maximus, odio enim porttitor lorem, luctus dignissim diam sapien id risus. Quisque tincidunt nunc id nulla egestas, a tincidunt odio facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed maximus imperdiet diam a gravida. Phasellus vehicula erat non ex efficitur cursus.
-
-Donec non lacus sem. Sed pulvinar varius mi, eget fringilla enim vulputate at. Quisque eget ligula ac sem rhoncus maximus. Nunc mollis nisi non augue malesuada posuere. Nunc pharetra neque vitae consectetur luctus. Proin quis ex id mi finibus sollicitudin. Nullam nec pharetra orci, at pulvinar nibh. Etiam lacinia tortor non mi condimentum, at lobortis leo fermentum. Sed velit dolor, tempus eu hendrerit vitae, fringilla sed velit. Praesent nulla nisi, vulputate et quam sed, feugiat convallis mi. Nullam mollis vel tortor non consectetur. Fusce vitae est sed ipsum pretium elementum. Sed vehicula hendrerit nibh eget efficitur. Donec cursus tempor aliquam. Integer facilisis aliquam risus, quis convallis magna facilisis a. Pellentesque eget felis pharetra, bibendum nisi eget, tincidunt lacus. 
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a bibendum tellus. In convallis, nulla a rhoncus tincidunt, est sem convallis nunc, vulputate congue magna augue quis nulla. Phasellus fermentum odio euismod magna auctor eleifend. Praesent semper, felis id sodales ultricies, neque ligula sagittis nibh, interdum fermentum lectus odio a urna. Aliquam luctus felis ex, sit amet venenatis tortor vestibulum a. Cras blandit faucibus lectus, a mattis massa lacinia et. Praesent in nibh vel ante aliquet fringilla. Etiam sapien dui, malesuada sit amet maximus vitae, tincidunt sit amet lectus. Nunc eu commodo metus, eget pretium odio. Cras dapibus condimentum nibh eu ornare. Proin iaculis sit amet nunc vitae elementum. Donec volutpat arcu at orci volutpat, a posuere nisl pulvinar. Curabitur ullamcorper orci vitae velit cursus, a rhoncus elit rutrum. Pellentesque sollicitudin, ipsum placerat malesuada ultricies, diam ex fringilla massa, et venenatis urna sapien nec velit. Curabitur congue quam eget diam posuere, vitae tempor neque tincidunt.
-
-Sed ullamcorper efficitur risus, vel aliquam est. Donec tincidunt vehicula laoreet. Curabitur gravida, lorem eu rhoncus ultricies, mauris ante gravida dui, id mollis tortor magna id urna. Praesent maximus aliquam est, at aliquet quam efficitur at. Sed rhoncus hendrerit mollis. Integer id sollicitudin lorem. Suspendisse ut maximus leo. Morbi sed dapibus est. Praesent in dignissim neque. Praesent faucibus leo in nisl gravida posuere. In hac habitasse platea dictumst. Maecenas non est finibus, tincidunt neque sed, hendrerit tellus. Fusce ornare sollicitudin libero id feugiat. Phasellus venenatis dui in nisl egestas blandit.
-
-Suspendisse feugiat est non diam tempor, vel ullamcorper nunc rhoncus. Cras in posuere sapien. Curabitur eros enim, eleifend id dictum eu, volutpat id arcu. Aenean luctus ut mi eget rhoncus. Morbi sodales varius elit, ut efficitur purus viverra et. Fusce molestie enim nec consequat consectetur. Phasellus fringilla hendrerit nisl eu volutpat. Praesent pharetra, orci vitae euismod egestas, turpis diam auctor leo, non vehicula libero ante id dolor. Aenean efficitur felis vel ante suscipit viverra. Donec id leo diam. Curabitur eu varius sem, sit amet laoreet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Mauris et facilisis mauris, laoreet eleifend dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas consequat augue vitae scelerisque. Donec ullamcorper lacus vel leo commodo cursus. Cras rutrum, tortor a accumsan maximus, odio enim porttitor lorem, luctus dignissim diam sapien id risus. Quisque tincidunt nunc id nulla egestas, a tincidunt odio facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed maximus imperdiet diam a gravida. Phasellus vehicula erat non ex efficitur cursus.
-
-Donec non lacus sem. Sed pulvinar varius mi, eget fringilla enim vulputate at. Quisque eget ligula ac sem rhoncus maximus. Nunc mollis nisi non augue malesuada posuere. Nunc pharetra neque vitae consectetur luctus. Proin quis ex id mi finibus sollicitudin. Nullam nec pharetra orci, at pulvinar nibh. Etiam lacinia tortor non mi condimentum, at lobortis leo fermentum. Sed velit dolor, tempus eu hendrerit vitae, fringilla sed velit. Praesent nulla nisi, vulputate et quam sed, feugiat convallis mi. Nullam mollis vel tortor non consectetur. Fusce vitae est sed ipsum pretium elementum. Sed vehicula hendrerit nibh eget efficitur. Donec cursus tempor aliquam. Integer facilisis aliquam risus, quis convallis magna facilisis a. Pellentesque eget felis pharetra, bibendum nisi eget, tincidunt lacus. 
-ante gravida dui, id mollis tortor magna id urna. Praesent maximus aliquam est, at aliquet quam efficitur at. Sed rhoncus hendrerit mollis. Integer id sollicitudin lorem. Suspendisse ut maximus leo. Morbi sed dapibus est. Praesent in dignissim neque. Praesent faucibus leo in nisl gravida posuere. In hac habitasse platea dictumst. Maecenas non est finibus, tincidunt neque sed, hendrerit tellus. Fusce ornare sollicitudin libero id feugiat. Phasellus venenatis dui in nisl egestas blandit.
-
-Suspendisse feugiat est non diam tempor, vel ullamcorper nunc rhoncus. Cras in posuere sapien. Curabitur eros enim, eleifend id dictum eu, volutpat id arcu. Aenean luctus ut mi eget rhoncus. Morbi sodales varius elit, ut efficitur purus viverra et. Fusce molestie enim nec consequat consectetur. Phasellus fringilla hendrerit nisl eu volutpat. Praesent pharetra, orci vitae euismod egestas, turpis diam auctor leo, non vehicula libero ante id dolor. Aenean efficitur felis vel ante suscipit viverra. Donec id leo diam. Curabitur eu varius sem, sit amet laoreet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Mauris et facilisis mauris, laoreet eleifend dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas consequat augue vitae scelerisque. Donec ullamcorper lacus vel leo commodo cursus. Cras rutrum, tortor a accumsan maximus, odio enim porttitor lorem, luctus dignissim diam sapien id risus. Quisque tincidunt nunc id nulla egestas, a tincidunt odio facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed maximus imperdiet diam a gravida. Phasellus vehicula erat non ex efficitur cursus.
-
-Donec non lacus sem. Sed pulvinar varius mi, eget fringilla enim vulputate at. Quisque eget ligula ac sem rhoncus maximus. Nunc mollis nisi non augue malesuada posuere. Nunc pharetra neque vitae consectetur luctus. Proin quis ex id mi finibus sollicitudin. Nullam nec pharetra orci, at pulvinar nibh. Etiam lacinia tortor non mi condimentum, at lobortis leo fermentum. Sed velit dolor, tempus eu hendrerit vitae, fringilla sed velit. Praesent nulla nisi, vulputate et quam sed, feugiat convallis mi. Nullam mollis vel tortor non consectetur. Fusce vitae est sed ipsum pretium elementum. Sed vehicula hendrerit nibh eget efficitur. Donec cursus tempor aliquam. Integer facilisis aliquam risus, quis convallis magna facilisis a. Pellentesque eget felis pharetra, bibendum nisi eget, tincidunt lacus. ante gravida dui, id mollis tortor magna id urna. Praesent maximus aliquam est, at aliquet quam efficitur at. Sed rhoncus hendrerit mollis. Integer id sollicitudin lorem. Suspendisse ut maximus leo. Morbi sed dapibus est. Praesent in dignissim neque. Praesent faucibus leo in nisl gravida posuere. In hac habitasse platea dictumst. Maecenas non est finibus, tincidunt neque sed, hendrerit tellus. Fusce ornare sollicitudin libero id feugiat. Phasellus venenatis dui in nisl egestas blandit.
-
-Suspendisse feugiat est non diam tempor, vel ullamcorper nunc rhoncus. Cras in posuere sapien. Curabitur eros enim, eleifend id dictum eu, volutpat id arcu. Aenean luctus ut mi eget rhoncus. Morbi sodales varius elit, ut efficitur purus viverra et. Fusce molestie enim nec consequat consectetur. Phasellus fringilla hendrerit nisl eu volutpat. Praesent pharetra, orci vitae euismod egestas, turpis diam auctor leo, non vehicula libero ante id dolor. Aenean efficitur felis vel ante suscipit viverra. Donec id leo diam. Curabitur eu varius sem, sit amet laoreet ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Mauris et facilisis mauris, laoreet eleifend dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas consequat augue vitae scelerisque. Donec ullamcorper lacus vel leo commodo cursus. Cras rutrum, tortor a accumsan maximus, odio enim porttitor lorem, luctus dignissim diam sapien id risus. Quisque tincidunt nunc id nulla egestas, a tincidunt odio facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed maximus imperdiet diam a gravida. Phasellus vehicula erat non ex efficitur cursus.
-
-Donec non lacus sem. Sed pulvinar varius mi, eget fringilla enim vulputate at. Quisque eget ligula ac sem rhoncus maximus. Nunc mollis nisi non augue malesuada posuere. Nunc pharetra neque vitae consectetur luctus. Proin quis ex id mi finibus sollicitudin. Nullam nec pharetra orci, at pulvinar nibh. Etiam lacinia tortor non mi condimentum, at lobortis leo fermentum. Sed velit dolor, tempus eu hendrerit vitae, fringilla sed velit. Praesent nulla nisi, vulputate et quam sed, feugiat convallis mi. Nullam mollis vel tortor non consectetur. Fusce vitae est sed ipsum pretium elementum. Sed vehicula hendrerit nibh eget efficitur. Donec cursus tempor aliquam. Integer facilisis aliquam risus, quis convallis magna facilisis a. Pellentesque eget felis pharetra, bibendum nisi eget, tincidunt lacus. 
-    <main>
-        
-    </main>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <div class="bloc-evenement-a-venir">
+                             <h3 class="h3-event-a-venir">
+                                Évènements à venir
+                             </h3>
+                             <h4 class="titre-event-a-venir">AGA 2017</h4>
+                             <p class="desc-event-a-venir">L'Assemblée générale annuelle de la CCIS aura lieule jeudi 20 avril prochain,à 17h, au Café Filozen, 811 Avenue de Grand-Mère, Shawinigan. 17 h : Souper-conférence (conférencier à confirmer)Coût: 35 $ (plus taxes) </p>
+                        </div>
+                    </div><!-- fin col 2-->
+                    
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image-default-event.png" alt="" height="300" width="300">
+                    </div>
+                    
+                    
+                   
+                </div><!-- fin row -->
+            </div><!-- fin container fluid-->
+ 
+</main>
   
   <?php get_footer(); ?>

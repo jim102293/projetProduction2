@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ######### HEADER ############# */
+/* #########        HEADER       ############# */
 
 /* LOGO */
 #img-logo{
@@ -94,4 +94,36 @@ input[type=text]:focus {
 .navbar-default .navbar-nav li a{
     color:#ffffff;
     text-transform: uppercase;
+}
+
+
+
+/* ############################       MAIN      ####################################*/
+
+/*  ******** SECTION EVENEMENT ***** */
+.h3-event{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.titre-evenement{
+    font-size: 20px;
+}
+
+
+.h3-event-a-venir{
+     text-transform: uppercase;
+    font-size: 15px;
+}
+
+.titre-event-a-venir{
+    font-size: 25px;
+}
+.desc-event-a-venir{
+    font-size: 15px;
+}
+
+.bloc-evenement-a-venir{
+    /*background-color: #000000;
+    color:#ffffff;*/
 }
