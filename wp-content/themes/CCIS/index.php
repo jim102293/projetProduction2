@@ -17,6 +17,35 @@
 
 
     <body>
+        <header>
+            <!--LOGO-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="logo">
+            <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="200" width="200"></a>
+            </div> <!--fermeture du logo-->
+            </div><!--fermture de la colonne-->
+        
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Recherche</a></li>
+            <li role="presentation"><a href="#">Connexion</a></li>
+            <li role="presentation"><a href="#">Panier</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        </div>
+        
+
+
+
+
+
+        </div><!--fermture du ROW-->
+    </div><!--fermeture du container -->
+        </header>
     <main>
         
     </main>
