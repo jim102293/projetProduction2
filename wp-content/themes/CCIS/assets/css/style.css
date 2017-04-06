@@ -78,3 +78,20 @@ input[type=text]:focus {
 .navbar-default{
      top:0;
 }
+
+/* menu principale */
+.navbar-collapse{
+   background-color: #f03437;
+   color:#ffffff;
+}
+
+/*menu principale */
+.navbar-collapse a{
+   background-color: #f03437;
+}
+
+/*menu principale */
+.navbar-default .navbar-nav li a{
+    color:#ffffff;
+    text-transform: uppercase;
+}
