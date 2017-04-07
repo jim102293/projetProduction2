@@ -127,3 +127,33 @@ input[type=text]:focus {
     /*background-color: #000000;
     color:#ffffff;*/
 }
+
+/*#########    FOOTER  ***************/
+
+.footer-contact-h2{
+    font-size: 30px;
+}
+
+.h3-reseauxsociaux{
+    text-transform: uppercase;
+}
+
+.bloc-info-footer{
+    background-color: #455560;
+    color:#ffffff;
+}
+.bloc-infolettre-footer{
+     background-color: #f03437;
+      color:#ffffff;
+}
+.bloc-reseaux-footer{
+     background-color: #455560;
+      color:#ffffff;
+}
+
+.h3-barre-noir{
+    
+}
+.barre-footer{
+    background-color: #000000;
+}
