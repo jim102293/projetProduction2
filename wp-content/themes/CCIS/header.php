@@ -32,10 +32,10 @@
                     
                 <!--MENU SECONDAIRE-->
                     <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-                        <nav>
+                        <nav class="menusecondaire">
                             <ul class="nav nav-pills pull-right">
                                 <form id="search-form" action="" method="get" >
-                                     <input type="text" name="search" placeholder="Recherche..">
+                                     <input class="recherche" type="text" name="search" placeholder="Recherche..">
                                 </form>
                                 <li role="presentation"><a href="#">Connexion</a></li>
                                 <li role="presentation"><a href="#"><img id="ico-panier" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ico_panier.png" alt="" height="15" width="15">Panier</a></li>

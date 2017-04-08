@@ -18,6 +18,16 @@ body {
     color:black;
 }
 
+/*menu secondaire responsive */
+@media (max-width: 768px) {
+    .nav-pills li a {
+        display:none;
+    }
+    .recherche {
+      display:none;
+  }
+}
+
 /* couleur hover */
 .nav-pills li  a:hover {
     background-color:#cecfd0;
