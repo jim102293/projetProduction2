@@ -1,5 +1,10 @@
+<?php
+/*
+Template Name: Home Page
+*/
+?>
 <?php get_header();?>
-
+<?php putRevSlider("article1", "homepage") ?>
 <main>
     <section id="slider-accueil">
         <div class="container-fluid">
@@ -9,8 +14,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
+    </section>  
 
 <!-- *******  EVENEMENT BLOC ********** -->
             <div class="container-fluid">

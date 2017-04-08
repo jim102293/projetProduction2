@@ -28,7 +28,10 @@ body {
     border-radius: 0px;
     border-left: 1px solid#000000;
 }
-
+/* Menu Secondaire */
+ul nav .nav-pills .pull-right {
+    background-color:tomato;
+}
 /* Le li active (recherche) */
 .nav-pills li.active a{
     color: #000000;
@@ -38,7 +41,7 @@ body {
 /* Hover du li active (recherche) */
 .nav-pills li.active a:hover{
     background-color: #cecfd0;
-    color:#000000
+    color:#000000;
 }
 
 /* BARRE DE RECHERCHE */
@@ -58,6 +61,15 @@ input[type=text] {
     font-weight: 700;
     text-transform: uppercase;
 }
+@media (max-width: 768px) {
+    .nav-pills li a {
+        display:none;
+    }
+    .recherche {
+      display:none;
+  }
+}
+
 
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
@@ -95,9 +107,22 @@ input[type=text]:focus {
     color:#ffffff;
     text-transform: uppercase;
 }
+.navbar-default .navbar-nav > .active > a {
+    background-color:#455560;
 
+}
+.navbar-default .navbar-nav > .active > a {
+    background-image:-webkit-linear-gradient(top, #455560 0%, #455560 100%);
+    color:#ffffff;
+}
 
-
+.navbar-default .navbar-nav li a:hover{
+    color:#ffffff;
+    background-color: #455560;
+    }
+.navbar-default .navbar-nav li.active {
+    background-color:#455560;
+}
 /* ############################       MAIN      ####################################*/
 
 /*  ******** SECTION EVENEMENT ***** */
@@ -145,15 +170,14 @@ input[type=text]:focus {
 .bloc-infolettre-footer{
      background-color: #f03437;
       color:#ffffff;
+      font-size:30px;
+      height:120px;
 }
 .bloc-reseaux-footer{
      background-color: #455560;
       color:#ffffff;
 }
-
-.h3-barre-noir{
-    
-}
-.barre-footer{
-    background-color: #000000;
+.barre-footer {
+    background-color:black;
+    margin:0 auto;
 }
