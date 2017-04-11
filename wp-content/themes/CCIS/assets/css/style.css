@@ -30,17 +30,22 @@ body {
 }
 /* Menu Secondaire */
 ul nav .nav-pills .pull-right {
-    background-color:tomato;
+    background-color:#ffffff;
+
 }
 /* Le li active (recherche) */
 .nav-pills li.active a{
     color: #000000;
     background-color: #ffffff;
 }
+ul nav .nav-pills .pull-right:hover {
+    background-color:#f03437;
 
+    
+}
 /* Hover du li active (recherche) */
 .nav-pills li.active a:hover{
-    background-color: #cecfd0;
+    background-color: #f03437;
     color:#000000;
 }
 
