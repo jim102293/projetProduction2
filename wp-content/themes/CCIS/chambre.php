@@ -9,7 +9,7 @@ Template Name: Chambre Page
 <!--TITRE DE LA PAGE + FILS D'ARIANE' -->
     <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <!-- Fils d'ariane-->
                         <div class="breadcrumbs">
                             <ul class="breadcrumb">
@@ -32,6 +32,11 @@ Template Name: Chambre Page
 	                        the_post_thumbnail();
                                         } 
                         ?>
+<div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headerchambre.png" alt="">
+                </div>
+        </div>
 </div> 
 
 

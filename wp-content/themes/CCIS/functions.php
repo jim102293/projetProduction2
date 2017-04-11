@@ -381,5 +381,13 @@ add_action( 'wp_head', 'twentyseventeen_javascript_detection', 0 );
 add_theme_support( 'post-thumbnails' );
 
 
-/**
+
+// SIDEBAR À GAUCHE
+if ( function_exists('register_sidebar') ) {
+register_sidebar( array(
+	'id'          => 'sidebar-footer-gauche',
+	'name'        => 'sidebar-footer-gauche',
+	'description' => __( 'Colonne de gauche', 'text_domain' ),
+) );
+}
 

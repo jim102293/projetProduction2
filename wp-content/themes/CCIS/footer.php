@@ -9,6 +9,11 @@
             <!-- NOUS JOINDRE -->
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="bloc-info-footer">
+                            				<?php
+				if(is_active_sidebar('sidebar-footer-gauche')){
+                        dynamic_sidebar('sidebar-footer-gauche');
+                        }
+				?>
                     <h2 class="footer-contact-h2">NOUS JOINDRE</h2>
                     <p class="adresse-footer">1250, avenue de la Station,<br>bureau 1-116  <br>Shawinigan (Québec)<br>G9N 1W8<br>Téléphone : 819.536.0777<br>info@ccishawinigan.ca</p>
                 </div>    
@@ -40,6 +45,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">     
             <!-- barre noire -->
             <div class="barre-footer">
+
                     <h3 class="h3-barre-noir">© 2017 | CHAMBRE DES COMMERCES ET INDUSTRIE SHAWINIGAN</h3>
             </div>
             </div><!-- fin de la col 12 -->

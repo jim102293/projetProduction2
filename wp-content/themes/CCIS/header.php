@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <div class="logo">
-                            <a href="/index.php"><img id="img-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="150" width="150"></a>
+                            <a href="<?php bloginfo('url')?>"><img id="img-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="150" width="150"></a>
                         </div> <!--fermeture du logo-->
                     </div><!--fermture de la colonne-->
       
