@@ -391,3 +391,11 @@ register_sidebar( array(
 ) );
 }
 
+// SIDEBAR À MILIEU
+if ( function_exists('register_sidebar') ) {
+register_sidebar( array(
+	'id'          => 'sidebar-footer-milieu',
+	'name'        => 'sidebar-footer-milieu',
+	'description' => __( 'Colonne du milieu', 'text_domain' ),
+) );
+}
