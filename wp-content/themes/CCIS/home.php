@@ -1,33 +1,11 @@
-<?php get_header();?>
+<?php
+get_header();
+?>
 
 <?php putRevSlider("article1", "homepage") ?>
+
 <main>
          
-    <!--TITRE DE LA PAGE + FILS D'ARIANE' -->
-    <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-12">
-                        <!-- Fils d'ariane-->
-                        <div class="breadcrumbs">
-                            <ul class="breadcrumb">
-                                <li><a href="<?php bloginfo('url') ?>">Accueil</a></li>
-                                <li><a href="#"><?php the_title(); ?></a></li>
-                            </ul>
-                        </div> <!-- fin div breadcrumbs -->
-
-                        <h2 class="h2-titre-page">
-                             <?php the_title(); ?>
-                        </h2>
-                    </div> <!-- fin div col -->
-                </div> <!-- fin div row -->
-    </div> <!-- fin container -->
-
-    <!-- IMAGE DE LA PAGE SECTION -->
-    <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-12">
-                        <?php add_theme_support( 'post-thumbnails' );?>
-
     <section id="slider-accueil">
         <div class="container-fluid">
             <div class="row">
@@ -37,6 +15,7 @@
             </div>
         </div>
     </section>  
+
      <?php while ( have_posts() ) : the_post(); ?>
     <div class="row">
 				 <div class="col-sm-4 col-lg-4 col-md-4">
@@ -45,7 +24,7 @@
 	                        the_post_thumbnail();
                                         } 
                         
-                                         ?>
+    ?>
                             <div class="caption">
                                 <h4><a href="<?php the_permalink() ?>"><?php the_title();?></a>
                                 </h4>
@@ -91,5 +70,10 @@
     <?php endwhile; // end of the loop. ?>
     <?php putRevSlider("instagram", "homepage") ?>
 </main>
-  
-  <?php get_footer(); ?>
+
+
+
+
+
+
+<?php get_footer();?>
