@@ -21,6 +21,10 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+ 	register_nav_menus( array(
+		'top'    =>  'top',
+		'toptop' => 'toptop'
+	) );
 function ccis_setup() {
 	/*
 	 * Make theme available for translation.
@@ -57,8 +61,7 @@ function ccis_setup() {
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
-		'top'    => __( 'Top Menu', 'twentyseventeen' ),
-		'social' => __( 'Social Links Menu', 'twentyseventeen' ),
+		'top'    => __( 'top', 'navbar-header' ),
 	) );
 
 	/*
@@ -379,3 +382,4 @@ add_theme_support( 'post-thumbnails' );
 
 
 /**
+

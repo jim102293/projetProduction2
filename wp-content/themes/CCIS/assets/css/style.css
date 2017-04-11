@@ -101,7 +101,10 @@ input[type=text]:focus {
 .navbar-collapse a{
    background-color: #f03437;
 }
-
+nav.navbar.navbar-default{
+    position:relative;
+    z-index:1000;
+}
 /*menu principale */
 .navbar-default .navbar-nav li a{
     color:#ffffff;
@@ -109,6 +112,7 @@ input[type=text]:focus {
 }
 .navbar-default .navbar-nav > .active > a {
     background-color:#455560;
+    position:relative;
 
 }
 .navbar-default .navbar-nav > .active > a {
@@ -171,7 +175,6 @@ input[type=text]:focus {
      background-color: #f03437;
       color:#ffffff;
       font-size:30px;
-      height:120px;
 }
 .bloc-reseaux-footer{
      background-color: #455560;
