@@ -89,6 +89,7 @@ input[type=text]:focus {
 /* Menu principale */
 .navbar-default{
      top:0;
+     
 }
 
 /* menu principale */
@@ -104,6 +105,7 @@ input[type=text]:focus {
 nav.navbar.navbar-default{
     position:relative;
     z-index:1000;
+    margin-top:15px;
 }
 /*menu principale */
 .navbar-default .navbar-nav li a{
@@ -129,6 +131,12 @@ nav.navbar.navbar-default{
 }
 /* ############################       MAIN      ####################################*/
 
+/* titre de la page */
+.h2-titre-page{
+    font-size: 25px;
+    color:#455560;
+    text-transform: uppercase;
+}
 /*  ******** SECTION EVENEMENT ***** */
 .h3-event{
     text-transform: uppercase;

@@ -29,9 +29,9 @@
             <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4">
                  <div class="bloc-reseaux-footer">
                     <h2 class="h3-reseauxsociaux">Suivez-nous</h3>
-<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>
-<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="100" width="100"></a>
-<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="100" width="100"></a>
+                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>
+                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="100" width="100"></a>
+                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="100" width="100"></a>
                  </div>
             </div>
         </div><!-- fin row -->
