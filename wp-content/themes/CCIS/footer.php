@@ -18,9 +18,11 @@
                 </div>    
             </div>
             <!-- infolettre -->
-            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="bloc-infolettre-footer">
-                    
+                <label for="email">Courriel :</label>
+                    <input name="your-email" value="" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" type="email">
+                    <input type="submit" value="Envoyez">
             <?php
 				if(is_active_sidebar('sidebar-footer-milieu')){
                         dynamic_sidebar('sidebar-footer-milieu');
@@ -31,7 +33,7 @@
                 </div>
             </div>
             <!-- Réseaux sociaux-->
-            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                  <div class="bloc-reseaux-footer">
                     <h2 class="h3-reseauxsociaux">Suivez-nous</h3>
                         <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>

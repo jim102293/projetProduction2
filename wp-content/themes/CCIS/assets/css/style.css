@@ -51,10 +51,12 @@ ul nav .nav-pills .pull-right:hover {
 input[type=email] {
     font-family: 'Roboto', sans-serif;
     background-color:white;
-    width:400px;
+    width:100px;
     color:black;
 
 }
+
+
 /* BARRE DE RECHERCHE */
 input[type=text] {
     width: 150px;
