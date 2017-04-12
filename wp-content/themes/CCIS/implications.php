@@ -25,7 +25,7 @@ Template Name: Implications
 <div class="row">
      <?php while ( have_posts() ) : the_post(); ?>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headerchambre.png" alt="">
+                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/implications.png" alt="">
                 </div>
         </div>
 </div> 
