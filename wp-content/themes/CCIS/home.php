@@ -7,7 +7,7 @@ get_header();
 <main>
          
     <section id="slider-accueil">
-        <div class="container-fluid">
+       <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                  
@@ -15,6 +15,7 @@ get_header();
             </div>
         </div>
     </section>  
+<div class="container-fluid">
 
      <?php while ( have_posts() ) : the_post(); ?>
     <div class="row">
@@ -67,6 +68,8 @@ get_header();
                 <?php endwhile; wp_reset_query(); ?>
                  
     </div> <!-- FIN DU ROW -->
+</div> <!-- container fluid fin -->
+
     <?php endwhile; // end of the loop. ?>
     <?php putRevSlider("instagram", "homepage") ?>
 </main>
