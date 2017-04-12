@@ -1,1 +1,5 @@
-<!--blogue-->
+<?php
+/*
+Template Name: Blogue
+*/
+?>
