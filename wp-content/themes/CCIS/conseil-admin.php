@@ -39,12 +39,32 @@ Template Name: Conseil admin Page
         </div>
 </div> 
 <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <p><?php the_content()?></p>
+             
+                                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                      <?php $loop = new WP_Query( array( 'post_type' => 'membre', 'posts_per_page' => -1 ) ); ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <?php if ( has_post_thumbnail() ) {
+                                            the_post_thumbnail();
+                                                        } 
+                        
+                                         ?>
+                                    
+                                         <div class="caption">
+                                <h4><a href="<?php the_permalink() ?>"><?php the_title();?></a>
+                                </h4>
+                                <h3><?php the_excerpt();?></h3>
+                                <h4><?php the_field('Adresse'); ?></h4>
+                                <h4><?php the_field('Entreprise'); ?></h4>
+                                <h4><?php the_field('Courriel'); ?></h4>
+                            </div>
+                            <?php endwhile; wp_reset_query(); ?>
                 </div>
+                
         </div>
 </div> 
 
+    
 
  <?php endwhile; // end of the loop. ?>
 <?php get_footer(); ?>
