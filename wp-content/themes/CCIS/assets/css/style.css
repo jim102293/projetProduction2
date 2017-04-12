@@ -52,7 +52,7 @@ ul nav .nav-pills .pull-right:hover {
 
 
 /* BARRE DE RECHERCHE */
-input[type=text] {
+.recherche {
     width: 150px;
     box-sizing: border-box;
     border: 1px solid #000000;
@@ -173,10 +173,7 @@ nav.navbar.navbar-default{
     font-size: 15px;
 }
 
-.bloc-evenement-a-venir{
-    /*background-color: #000000;
-    color:#ffffff;*/
-}
+
 
 /*#####################    FOOTER  ***************/
 
@@ -226,3 +223,38 @@ input[type=email] {
     color:black;
 
 }
+
+
+/* ############### CONTACT ############# */ 
+
+/* form contact */
+input[type=text]{
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input[type=email]{
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* map */ 
