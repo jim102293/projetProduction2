@@ -48,13 +48,7 @@ ul nav .nav-pills .pull-right:hover {
     background-color: #f03437;
     color:#000000;
 }
-input[type=email] {
-    font-family: 'Roboto', sans-serif;
-    background-color:white;
-    width:100px;
-    color:black;
 
-}
 
 
 /* BARRE DE RECHERCHE */
@@ -180,6 +174,9 @@ nav.navbar.navbar-default{
 
 /*#####################    FOOTER  ***************/
 
+.footer-bloc{
+    background-color: #455560;
+}
 .footer-contact-h2{
     font-size: 30px;
 }
@@ -187,19 +184,8 @@ nav.navbar.navbar-default{
 .h3-reseauxsociaux{
     text-transform: uppercase;
 }
-
 .bloc-info-footer{
-    background-color: #455560;
     color:#ffffff;
-}
-.bloc-infolettre-footer{
-     background-color: #f03437;
-      color:#ffffff;
-      font-size:30px;
-}
-.bloc-reseaux-footer{
-     background-color: #455560;
-      color:#ffffff;
 }
 .barre-footer {
     background-color:black;
@@ -211,4 +197,14 @@ nav.navbar.navbar-default{
     color:#ffffff;
     font-weight: 300;
     font-size: 15px;
+}
+
+/* INPUT DU EMAIL infolettre */ 
+input[type=email] {
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+    width:250px;
+    height: 50px;
+    color:black;
+
 }

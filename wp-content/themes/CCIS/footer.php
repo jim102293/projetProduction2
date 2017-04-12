@@ -5,53 +5,60 @@
 
     <!--********  FOOTER INFO ******** -->
 
-        <div class="row">
-            <!-- NOUS JOINDRE -->
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="bloc-info-footer">
-             <?php
-				if(is_active_sidebar('sidebar-footer-gauche')){
-                        dynamic_sidebar('sidebar-footer-gauche');
-                        }
-			?>
-                    
-                </div>    
-            </div>
-            <!-- infolettre -->
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="bloc-infolettre-footer">
-                <label for="email">Courriel :</label>
-                    <input name="your-email" value="" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" type="email">
-                    <input type="submit" value="Envoyez">
-            <?php
-				if(is_active_sidebar('sidebar-footer-milieu')){
-                        dynamic_sidebar('sidebar-footer-milieu');
-                        }
-			?>
-                 
-                    
-                </div>
-            </div>
-            <!-- Réseaux sociaux-->
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                 <div class="bloc-reseaux-footer">
-                    <h2 class="h3-reseauxsociaux">Suivez-nous</h3>
-                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>
-                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="100" width="100"></a>
-                        <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="100" width="100"></a>
-                 </div>
-            </div>
-        </div><!-- fin row -->
+<div class="container-fluid">
+            <div class="footer-bloc">
+                <div class="row">
 
-        <div class="row">            
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">     
-            <!-- barre noire -->
-            <div class="barre-footer">
+                    <!-- NOUS JOINDRE -->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="bloc-info-footer">
+                            <?php
+                                if(is_active_sidebar('sidebar-footer-gauche')){
+                                        dynamic_sidebar('sidebar-footer-gauche');
+                                        }
+                            ?>
+                            
+                        </div>    
+                    </div>
 
-                    <h3 class="h3-barre-noir">© 2017 | CHAMBRE DES COMMERCES ET INDUSTRIE SHAWINIGAN   </h3>
-            </div>
-            </div><!-- fin de la col 12 -->
-        </div><!-- fin du row-->
+                    <!-- infolettre -->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="bloc-infolettre-footer">
+                            <h3> INFOLETTRE</h3>
+                            <div class="form-group">
+                                <label for="email">Courriel:</label>
+                                <input type="email" class="form-control" id="courriel" placeholder=" Entrez votre courriel" >
+                            </div>
+                                <?php
+                                    if(is_active_sidebar('sidebar-footer-milieu')){
+                                            dynamic_sidebar('sidebar-footer-milieu');
+                                            }
+                                ?>
+                        </div> <!-- fin bloc infolettre footer -->
+                    </div> <!-- fin col 4 -->
+
+                    <!-- Réseaux sociaux-->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="bloc-reseaux-footer">
+                            <h2 class="h3-reseauxsociaux">Suivez-nous</h3>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="100" width="100"></a>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="100" width="100"></a>
+                        </div>
+                    </div>
+                
+
+                          
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">     
+                        <!-- barre noire -->
+                        <div class="barre-footer">
+                            <h3 class="h3-barre-noir">© 2017 | CHAMBRE DES COMMERCES ET INDUSTRIE SHAWINIGAN   </h3>
+                        </div>
+                    </div><!-- fin de la col 12 -->
+                
+            </div><!-- fin du row-->
+        </div> <!-- fin footer bloc -->
+    </div> <!-- fin container fluid -->
 </footer>
 
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
