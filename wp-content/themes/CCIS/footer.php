@@ -44,11 +44,11 @@
         </div><!-- fin row -->
 
         <div class="row">            
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">     
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">     
             <!-- barre noire -->
             <div class="barre-footer">
 
-                    <h3 class="h3-barre-noir">© 2017 | CHAMBRE DES COMMERCES ET INDUSTRIE SHAWINIGAN</h3>
+                    <h3 class="h3-barre-noir">© 2017 | CHAMBRE DES COMMERCES ET INDUSTRIE SHAWINIGAN   </h3>
             </div>
             </div><!-- fin de la col 12 -->
         </div><!-- fin du row-->

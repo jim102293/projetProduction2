@@ -178,7 +178,7 @@ nav.navbar.navbar-default{
     color:#ffffff;*/
 }
 
-/*#########    FOOTER  ***************/
+/*#####################    FOOTER  ***************/
 
 .footer-contact-h2{
     font-size: 30px;
@@ -203,5 +203,12 @@ nav.navbar.navbar-default{
 }
 .barre-footer {
     background-color:black;
+    padding: 10px;
     margin:0 auto;
+}
+
+.h3-barre-noir{
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 15px;
 }
