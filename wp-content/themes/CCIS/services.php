@@ -5,7 +5,6 @@ Template Name: Services
 ?>
 
 <?php get_header();?>
-
 <!--TITRE DE LA PAGE + FILS D'ARIANE' -->
     <div class="container-fluid">
                 <div class="row">
@@ -24,17 +23,10 @@ Template Name: Services
                     </div> <!-- fin div col -->
                 </div> <!-- fin div row -->
     </div> <!-- fin container -->
-
- <div class="thumbnail">
- <?php while ( have_posts() ) : the_post(); ?>
-   
-                       <?php if ( has_post_thumbnail() ) {
-	                        the_post_thumbnail();
-                                        } 
-                        ?>
 <div class="row">
+     <?php while ( have_posts() ) : the_post(); ?>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services.png" alt="">
+                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headerchambre.png" alt="">
                 </div>
         </div>
 </div> 
