@@ -182,6 +182,7 @@ nav.navbar.navbar-default{
 
 .footer-bloc{
     background-color: #455560;
+
 }
 .footer-contact-h2{
     font-size: 30px;
@@ -192,7 +193,18 @@ nav.navbar.navbar-default{
 }
 .bloc-info-footer{
     color:#ffffff;
+    padding-left: 10px;
 }
+.h3-infolettre{
+    color:#ffffff;
+    font-size: 30px;
+}
+.label-courriel{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .barre-footer {
     background-color:black;
     padding: 10px;

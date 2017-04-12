@@ -24,10 +24,11 @@
                     <!-- infolettre -->
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <div class="bloc-infolettre-footer">
-                            <h3> INFOLETTRE</h3>
+                            <h3 class="h3-infolettre"> INFOLETTRE</h3>
                             <div class="form-group">
-                                <label for="email">Courriel:</label>
+                                <label for="email" class="label-courriel">Courriel:</label>
                                 <input type="email" class="form-control" id="courriel" placeholder=" Entrez votre courriel" >
+                                <input type="submit" value="Envoyez">
                             </div>
                                 <?php
                                     if(is_active_sidebar('sidebar-footer-milieu')){

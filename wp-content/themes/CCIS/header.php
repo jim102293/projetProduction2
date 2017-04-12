@@ -54,7 +54,8 @@
 
 
             <!-- MENU PRINCIPALE -->
-            
+    <div class="container-fluid">
+        
     <nav class="navbar navbar-default">
 
           <!-- menu hanburger quand responsive-->
@@ -68,6 +69,6 @@
            ?>
 
     </nav>
-
+    </div>  
 
 </header>
