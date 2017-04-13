@@ -83,9 +83,11 @@ get_header();
                         </div><!-- fin col 12 -->
             </div><!-- fin row -->
 
-        <!-- PARTENAIRE -->
+   </div> <!-- FIN DU ROW -->
+  
 
-        <?php while ( have_posts() ) : the_post(); ?>
+        <!-- PARTENAIRE -->
+ <div class="container-fluid">
             <div class="row">
                 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -93,9 +95,8 @@ get_header();
                 </div>
                 
             </div> <!-- fin row -->         
-                    
-    </div> <!-- FIN DU ROW -->
-    <?php endwhile; // end of the loop. ?>
+</div>     
+ 
 </main>
 
 
