@@ -10,7 +10,7 @@
                 <div class="row">
 
                     <!-- NOUS JOINDRE -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
                         <div class="bloc-info-footer">
                             <?php
                                 if(is_active_sidebar('sidebar-footer-gauche')){
@@ -22,12 +22,12 @@
                     </div>
 
                     <!-- infolettre -->
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
                         <div class="bloc-infolettre-footer">
                             <h3 class="h3-infolettre"> INFOLETTRE</h3>
                             <div class="form-group">
                                 <label for="email" class="label-courriel">Courriel:</label>
-                                <input type="email" class="form-control" id="courriel" placeholder=" Entrez votre courriel" >
+                                <input type="email" class="form-control text-center" id="courriel" placeholder=" Entrez votre courriel"  >
                                 <input type="submit" value="Envoyez">
                             </div>
                                 <?php
@@ -39,12 +39,12 @@
                     </div> <!-- fin col 4 -->
 
                     <!-- Réseaux sociaux-->
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
                         <div class="bloc-reseaux-footer">
                             <h2 class="h3-reseauxsociaux">Suivez-nous</h3>
-                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="100" width="100"></a>
-                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="100" width="100"></a>
-                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="100" width="100"></a>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/instagram.png" alt="" height="50" width="50"></a>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook.png" alt="" height="50" width="50"></a>
+                                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linkedin.png" alt="" height="50" width="50"></a>
                         </div>
                     </div>
                 

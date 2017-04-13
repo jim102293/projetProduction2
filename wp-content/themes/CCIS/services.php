@@ -26,16 +26,18 @@ Template Name: Services
 <div class="row">
      <?php while ( have_posts() ) : the_post(); ?>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/headerchambre.png" alt="">
+                    <img class="img-responsive" id="image1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services.png" alt="">
                 </div>
         </div>
 </div> 
-<div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <p><?php the_content()?></p>
-                </div>
-        </div>
-</div> 
+<div class="container-fluid">
+    <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <p><?php the_content()?></p>
+                    </div>
+            
+    </div> 
+</div>
 
 
  <?php endwhile; // end of the loop. ?>
