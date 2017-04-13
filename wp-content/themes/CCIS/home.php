@@ -54,19 +54,21 @@ get_header();
                                         
                                         ?>
                                 </div> <!-- fin thubnails -->
+                <div class="container-fluid">
 
-                                <div class="caption">
+                                <div class="caption2">
                                     <h4><a href="<?php the_permalink() ?>"><?php the_title();?></a></h4>
                                     <h3><?php the_excerpt();?></h3>
-                                    <h4><strong>Date :</strong> <?php the_field('date'); ?> </h4>
-                                    <h4><strong>Heure :</strong> <?php the_field('heure'); ?></h4>
-                                    <h4><strong>Emplacement:</strong> <?php the_field('emplacement'); ?></h4>
+                                    <h4>Date : <?php the_field('date'); ?> </h4>
+                                    <h4>Heure : <?php the_field('heure'); ?></h4>
+                                    <h4>Emplacement: <?php the_field('emplacement'); ?></h4>
                                 </div><!-- fin caption -->
                         </div> <!-- fin event recent -->   
                     </div><!-- fin col 6 -->
         </div><!-- fin row  d'en haut-->
-            <?php endwhile; wp_reset_query(); ?> 
 </div> <!-- container fluid fin -->
+            <?php endwhile; wp_reset_query(); ?> 
+
 
             <?php endwhile; // end of the loop. ?>
    

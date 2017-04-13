@@ -172,17 +172,63 @@ nav.navbar.navbar-default{
 .desc-event-a-venir{
     font-size: 15px;
 }
-/*#####################   ACCUEIL   ***************/
+/*#####################   PAGE ACCUEIL   ***************/
+
 /* titre article */
 .h2-article-accueil{
-    
+    color:#ffffff;
 }
 .article-recent{
     background-color: #455560;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #455560;
+}
+
+.h2-event-accueil{
+    color:#ffffff;
 }
 
 .event-recent{
     background-color: #f03437;
+        border-style: solid;
+    border-width: 5px;
+    border-color: #f03437;
+}
+.caption{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.caption h3{
+    font-weight: 300;
+     font-size: 16px;
+     line-height: 180%;
+}
+.caption a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.caption a:hover{
+    color:#f03437;
+
+}
+
+/* CAPTION 2  */
+.caption2 a:hover{
+     color:#000000;
+}
+.caption2 a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.caption2{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.caption h3 h4{
+    font-weight: 300;
+     line-height: 180%;
 }
 /*#####################    FOOTER  ***************/
 
