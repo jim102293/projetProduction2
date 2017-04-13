@@ -307,6 +307,10 @@ input[type=email]{
     font-weight: 700;
     text-transform: uppercase;
 }
+input#courriel{
+    text-align: center;
+    margin-left: 60px;
+}
 /* map */ 
 
 /*####################  CALL TO ACTION DEVENIR MEMBRE HOME ######### */ 
