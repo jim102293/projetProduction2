@@ -41,7 +41,7 @@ Template Name: Blogue
                             <p><?php the_content()?></p>
                             <h2 class="h2-article-accueil text-center"> Articles récents</h2>
                                 <div class="thumbnail">
-                                        <?php $loop = new WP_Query( array( 'post_type' => 'evenement', 'posts_per_page' => -1 ) ); ?>
+                                        <?php $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1 ) ); ?>
                                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                         <?php if ( has_post_thumbnail() ) {
                                                             the_post_thumbnail();
@@ -59,12 +59,13 @@ Template Name: Blogue
                 </div><!-- fin col 9-->
             
                     
-            <?php endwhile; wp_reset_query(); ?> 
+               
     </div> <!-- fin row -->
-        <?php endwhile; // end of the loop. ?>
+
 </div><!-- fin container fluid -->
 
-
+          <?php endwhile; wp_reset_query(); ?> 
+        <?php endwhile; // end of the loop. ?>
 
 
 <?php get_footer(); ?>
