@@ -172,9 +172,18 @@ nav.navbar.navbar-default{
 .desc-event-a-venir{
     font-size: 15px;
 }
+/*#####################   ACCUEIL   ***************/
+/* titre article */
+.h2-article-accueil{
+    
+}
+.article-recent{
+    background-color: #455560;
+}
 
-
-
+.event-recent{
+    background-color: #f03437;
+}
 /*#####################    FOOTER  ***************/
 
 .footer-bloc{
@@ -187,6 +196,7 @@ nav.navbar.navbar-default{
 
 .h3-reseauxsociaux{
     text-transform: uppercase;
+    color:#ffffff;
 }
 .bloc-info-footer{
     color:#ffffff;
