@@ -324,3 +324,13 @@ input[type=email]{
 .btn-default {
    margin-bottom: 10px;
 }
+#courriel {
+    text-align:center;
+    margin-left:90px;
+}
+@media (max-width: 768px) {
+    #courriel {
+        margin-left:5px;
+    }
+}
+

@@ -27,7 +27,7 @@
                             <h3 class="h3-infolettre"> INFOLETTRE</h3>
                             <div class="form-group">
                                 <label for="email" class="label-courriel">Courriel:</label>
-                                <input type="email" class="form-control text-center" id="courriel" placeholder=" Entrez votre courriel"  >
+                                <input type="email" class="form-control" id="courriel" placeholder=" Entrez votre courriel"  >
                                 <input type="submit" value="Envoyez">
                             </div>
                                 <?php

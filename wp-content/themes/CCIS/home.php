@@ -24,11 +24,11 @@ get_header();
                     <div class="article-recent">
                         <h2 class="h2-article-accueil text-center"> Articles récents</h2>
                             <div class="thumbnail">
-                                    <?php if ( has_post_thumbnail() ) {
+                                    <a class="banner" href=""><?php if ( has_post_thumbnail() ) {
                                             the_post_thumbnail();
                                                         } 
                                         
-                                    ?>
+                                    ?></a>
                             </div><!-- fin thubnails -->
                             <div class="caption">
                                 <h4><a href="<?php the_permalink() ?>"><?php the_title();?></a></h4>
