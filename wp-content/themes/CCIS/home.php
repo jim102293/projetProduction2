@@ -62,6 +62,7 @@ get_header();
                                     <h4>Date : <?php the_field('date'); ?> </h4>
                                     <h4>Heure : <?php the_field('heure'); ?></h4>
                                     <h4>Emplacement: <?php the_field('emplacement'); ?></h4>
+                                    <button type="button" class="btn btn-default">S'INSCRIRE</button>
                                 </div><!-- fin caption -->
                         </div> <!-- fin event recent -->   
                     </div><!-- fin col 6 -->
